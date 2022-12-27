@@ -55,7 +55,7 @@ img {
 .photo-main img {
   position: absolute;
   left: -3.5em;
-  top: 4em;
+  top: 6rem;
   max-width: 110%;
   filter: saturate(150%) contrast(120%) hue-rotate(10deg)
     drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
@@ -115,4 +115,21 @@ img {
 }
 .buy--btn:active {
   transform: scale(0.97);
+}
+
+/* footer styles */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background: lightgray;
+  padding: 2rem 0;
+  margin-bottom: 0;
+}
+.copyright {
+  background: #6f00ff;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
 }

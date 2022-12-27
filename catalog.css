@@ -100,3 +100,20 @@ body {
     grid-template-columns: auto;
   }
 }
+
+/* footer styles */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background: lightgray;
+  padding: 2rem 0;
+  margin-bottom: 0;
+}
+.copyright {
+  background: #6f00ff;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+}
