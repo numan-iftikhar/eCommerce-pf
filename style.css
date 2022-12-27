@@ -1,0 +1,46 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* hero section styles */
+#hero {
+  background-image: url(./images/hero-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-text p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.hero-text h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.hero-text a,
+.buy-now-btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 0.8rem;
+  margin-top: 1rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #6f00ff;
+}
+
+/* product cards styles */
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
